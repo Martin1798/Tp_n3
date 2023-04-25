@@ -157,18 +157,13 @@ alumno_t CrearAlumno(char * apellido, char * nombre, uint32_t documento) {
 
     // Creo que se usa "." en vez de "->" porque la estructura a la que accedo la tengo definida en
     // la propia funcion (en un arreglo de estructuras). En el caso anterior, no tenia acceso a la
-    // estructura, solamente al puntero de la estructura. Preguntar.
+    // estructura,  solamente al puntero de la estructura. Preguntar.
 
 #endif
 
     return resultado;
 }
 
-int GetCompleto(alumno_t alumno, char * cadena, int espacio) {
-}
-
-uint32_t GetDocumento(alumno_t alumno) {
-}
 /* === End of documentation ==================================================================== */
 
 /** @} End of module definition for doxygen */
