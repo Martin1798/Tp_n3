@@ -43,10 +43,6 @@ typedef struct alumno_s * alumno_t; // alumno_t es un tipo de variable puntero a
 /* === Public function declarations ============================================================ */
 alumno_t CrearAlumno(char * apellido, char * nombre, uint32_t documento); // Devuelve un puntero
 
-int GetCompleto(alumno_t alumno, char * cadena, int espacio);
-
-uint32_t GetDocumento(alumno_t alumno);
-
 int Serializar(alumno_t alumno, char * cadena, int espacio);
 /* === End of documentation ==================================================================== */
 
