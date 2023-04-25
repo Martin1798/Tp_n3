@@ -36,7 +36,7 @@ extern "C" {
 #include <stdint.h>
 
 /* === Public data type declarations =========================================================== */
-typedef struct alumno_s * alumno_t; // alumno_t es un tipo de variable puntero a alumno_s
+typedef struct alumno_s *  alumno_t; // alumno_t es un tipo de variable puntero a alumno_s
 
 /* === Public variable declarations ============================================================ */
 
